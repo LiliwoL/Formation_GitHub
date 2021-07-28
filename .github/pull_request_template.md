@@ -27,4 +27,4 @@ Pour faciliter le process de revue des PR, merci de compléter les points suivan
 Si cette PR règle une issue particulière, saisissez son ID. L'issue sera automatiquement marquée comme **réglée** quand ce PR sera mergée.:
 -->
 
-Correspond à l'issue: #XXX
+Closes #XXX
