@@ -1,0 +1,6 @@
+# https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#configuring-the-template-chooser
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Discord de Formation
+    url: https://discord.gg/5pBcv4JC
+    about: Contacter via discord
