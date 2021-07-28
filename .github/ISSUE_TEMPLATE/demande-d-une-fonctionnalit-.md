@@ -1,12 +1,3 @@
----
-name: Demande d'une fonctionnalité
-about: Suggérer une amélioration
-title: ''
-labels: enhancement
-assignees: ''
-
----
-
 name: Bug Report
 description: File a bug report
 title: "[Bug]: "
