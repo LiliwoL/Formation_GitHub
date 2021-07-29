@@ -13,9 +13,11 @@ jobs:
       - name: Psalm
         uses: docker://vimeo/psalm-github-actions
         with:
+          ssh_key: ${{ secrets.PRIVATE_KEY }}
+          ssh_key_pub: ${{ secrets.PUBLIC_KEY }}
           security_analysis: true
           report_file: results.sarif
-          
+
       - name: Upload Security Analysis results to GitHub
         uses: github/codeql-action/upload-sarif@v1
         with:
