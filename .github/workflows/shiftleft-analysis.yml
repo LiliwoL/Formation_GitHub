@@ -1,4 +1,4 @@
-name: SL Scan
+name: ShiftLeft Security Scan
 
 on:
   push:
