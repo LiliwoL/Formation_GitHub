@@ -1,6 +1,15 @@
 # https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository#configuring-the-template-chooser
-blank_issues_enabled: true
+
+# Permet on la création de ticket sans utiliser de template?
+blank_issues_enabled: false
+
+# Si l'on souhaite permettre d'entrer en contact directement (via une url) plutôt que de créer un ticket
 contact_links:
   - name: 💬 Discord de Formation
     url: https://discord.gg/5pBcv4JC
     about: Contacter via discord
+    
+contact_links:
+  - name: J'ai besoin d'aide
+    url: https://www.brico-phone.com/aide-support-faq-questions-frequentes-brico-phone
+    about: J'ai des questions...
